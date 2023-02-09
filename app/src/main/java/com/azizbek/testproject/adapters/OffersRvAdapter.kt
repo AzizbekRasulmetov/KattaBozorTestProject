@@ -5,9 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.azizbek.testproject.databinding.ItemAttributeBinding
 import com.azizbek.testproject.databinding.ItemPhoneBinding
+import com.azizbek.testproject.domain.models.PhoneOffer
 import com.azizbek.testproject.hide
 import com.azizbek.testproject.loadImageFromUrl
-import com.azizbek.testproject.models.PhoneOffer
 import com.azizbek.testproject.show
 
 class OffersRvAdapter(private val phones: List<PhoneOffer>) : RecyclerView.Adapter<OffersRvAdapter.PhoneViewHolder>() {

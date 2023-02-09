@@ -1,4 +1,4 @@
-package com.azizbek.testproject.ui
+package com.azizbek.testproject.presenter
 
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -7,10 +7,10 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.azizbek.testproject.adapters.OffersRvAdapter
-import com.azizbek.testproject.api.NetworkResult
+import com.azizbek.testproject.data.network.NetworkResult
 import com.azizbek.testproject.databinding.ActivityMainBinding
+import com.azizbek.testproject.domain.models.PhoneOffer
 import com.azizbek.testproject.hide
-import com.azizbek.testproject.models.PhoneOffer
 import com.azizbek.testproject.show
 import dagger.hilt.android.AndroidEntryPoint
 

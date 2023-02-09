@@ -1,4 +1,4 @@
-package com.azizbek.testproject.api
+package com.azizbek.testproject.data.network
 
 sealed class NetworkResult<T>(
     val data: T? = null,

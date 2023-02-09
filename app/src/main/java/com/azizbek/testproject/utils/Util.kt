@@ -1,6 +1,6 @@
 package com.azizbek.testproject
 
-import com.azizbek.testproject.api.WebService
+import com.azizbek.testproject.data.network.WebService
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit

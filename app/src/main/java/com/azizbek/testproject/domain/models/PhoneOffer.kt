@@ -1,6 +1,6 @@
-package com.azizbek.testproject.models
+package com.azizbek.testproject.domain.models
 
-import com.azizbek.testproject.models.remote.OfferResponse
+import com.azizbek.testproject.data.models.OfferResponse
 
 data class PhoneOffer(
     val name: String,

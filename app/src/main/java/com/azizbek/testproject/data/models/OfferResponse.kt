@@ -1,4 +1,4 @@
-package com.azizbek.testproject.models.remote
+package com.azizbek.testproject.data.models
 
 
 import com.squareup.moshi.Json

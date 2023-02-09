@@ -1,6 +1,6 @@
-package com.azizbek.testproject.api
+package com.azizbek.testproject.data.network
 
-import com.azizbek.testproject.models.remote.OfferResponse
+import com.azizbek.testproject.data.models.OfferResponse
 import retrofit2.http.GET
 
 interface WebService {
